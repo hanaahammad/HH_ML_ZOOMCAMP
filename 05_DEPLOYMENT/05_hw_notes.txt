@@ -1,0 +1,25 @@
+(ml-env) C:\Workspaces\ML-ZoomCamp>uv --version
+uv 0.8.2 (21fadbcc1 2025-07-22)
+
+
+uv 0.9.5 (d5f39331a 2025-10-21)
+
+(ml-env) C:\Workspaces\ML-ZoomCamp\hw5>uv init
+Initialized project `hw5`
+
+(ml-env) C:\Workspaces\ML-ZoomCamp\hw5>
+
+uv add "scikit-learn==1.6.1"
+
+
+Verify the installation: You can check the installed version by using 
+uv pip freeze 
+or 
+uv pip list.
+Run your code: If you are in a uv project, you can run your code within the managed environment using uv run. For example: uv run python my_script.py.
+
+
+scikit_learn-1.6.1.dist-info/COPYING,sha256=G3TgLQy45lAgkRJHh_yRaVud2SycsUbZ00gw-aMAqzw,2628
+
+(ml-env) C:\Workspaces\ML-ZoomCamp>python predict-test.py
+{'convert': True, 'convert_probability': 0.5340417283801275}
