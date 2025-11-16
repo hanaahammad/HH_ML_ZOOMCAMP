@@ -66,9 +66,17 @@ Ensure you have Docker installed and running.
 
 ## 📁 Project File Structure
 
-customer_segmentation/ ├── app.py # Main entry point, data cleaning, caching, and all model training. ├── OnlineRetail.csv # Source data file used for the project. ├── requirements.txt # Python package dependencies (pandas, streamlit, sklearn, etc.). └── pages/ # Contains all Streamlit sidebar pages (The 8-Step CPMAI flow). ├── 1_CPMAI_Introduction.py # Defines the CPMAI framework and Unsupervised ML approach. ├── 2_Business_Understanding.py # CPMAI Phase 1: Problem statement and AI mapping. ├── 3_Data_Understanding.py # CPMAI Phase 2: Data loading, RFM distributions, and feature analysis. ├── 4_Data_Preparation.py # CPMAI Phase 3: Log-transformation and scaling. ├── 5_Algorithm_Choice.py # CPMAI Phase 4 (Theory): Comparison of K-Means, DBSCAN, and Hierarchical. ├── 6_Evaluation_Results.py # CPMAI Phase 5: Cluster profiles, business segmentation, and actionability. ├── 7_Comparison_Algorithms.py # K-Means Experiment (K=2 to 10) results and final algorithm justification. └── 8_Monitoring_Tracing.py # CPMAI Phase 6: Monitoring segment stability and detecting concept drift.
+customer_segmentation/ 
+├── app.py # Main entry point, data cleaning, caching, and all model training. 
+├── OnlineRetail.csv # Source data file used for the project. 
+├── requirements.txt # Python package dependencies (pandas, streamlit, sklearn, etc.). 
+└── pages/ # Contains all Streamlit sidebar pages (The 8-Step CPMAI flow). 
+    ├── 1_CPMAI_Introduction.py # Defines the CPMAI framework and Unsupervised ML approach. 
+    ├── 2_Business_Understanding.py # CPMAI Phase 1: Problem statement and AI mapping. 
+    ├── 3_Data_Understanding.py # CPMAI Phase 2: Data loading, RFM distributions, and feature analysis. 
+    ├── 4_Data_Preparation.py # CPMAI Phase 3: Log-transformation and scaling. 
+    ├── 5_Algorithm_Choice.py # CPMAI Phase 4 (Theory): Comparison of K-Means, DBSCAN, and Hierarchical. 
+    ├── 6_Evaluation_Results.py # CPMAI Phase 5: Cluster profiles, business segmentation, and actionability. 
+    ├── 7_Comparison_Algorithms.py # K-Means Experiment (K=2 to 10) results and final algorithm justification. 
+    └── 8_Monitoring_Tracing.py # CPMAI Phase 6: Monitoring segment stability and detecting concept drift.
 
-    ├── 6_Evaluation_Results.py
-
-    ├── 7_Comparison_Algorithms.py # New: K-Means Experiment & Algorithm Comparison 
-    └── 8_Monitoring_Tracing.py
