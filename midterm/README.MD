@@ -65,7 +65,7 @@ Ensure you have Docker installed and running.
 ---
 
 ## 📁 Project File Structure
-
+```plaintext
 customer_segmentation/ 
 ├── app.py # Main entry point, data cleaning, caching, and all model training. 
 ├── OnlineRetail.csv # Source data file used for the project. 
