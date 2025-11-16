@@ -64,15 +64,5 @@ Ensure you have Docker installed and running.
 
 ---
 
-## 📂 File Structure
-customer_segmentation/
-├── app.py                      # Main entry point and data processing
-├── OnlineRetail.csv            # The source data file 
-├── requirements.txt            # Python package dependencies
-├── Dockerfile                  # Docker build instructions 
-├── README.md                   # This documentation file
-└── pages/
-    ├── 1_Introduction.py       # CPMAI Phases 1-3
-    ├── 2_Segmentation_Results.py # CPMAI Phases 4-5
-    └── 3_Monitoring_Dashboard.py # CPMAI Phase 6
+## 📁 Project File Structure
 
