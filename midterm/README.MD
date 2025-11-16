@@ -65,4 +65,14 @@ Ensure you have Docker installed and running.
 ---
 
 ## 📁 Project File Structure
+customer_segmentation/ ├── app.py # Main engine (Data Loading, Caching, K-Means Modeling) ├── OnlineRetail.csv # Source data file ├── requirements.txt # Python dependencies ├── README.md # Project documentation └── pages/ # Streamlit sidebar pages (The 8-Step CPMAI Flow) ├── 1_CPMAI_Introduction.py
 
+├── 2_Business_Understanding.py ├── 3_Data_Understanding.py
+
+├── 4_Data_Preparation.py
+
+├── 5_Algorithm_Choice.py
+
+├── 6_Evaluation_Results.py
+
+├── 7_Comparison_Algorithms.py # New: K-Means Experiment & Algorithm Comparison └── 8_Monitoring_Tracing.py
