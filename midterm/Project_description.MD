@@ -1,5 +1,7 @@
-CPMAI Customer Segmentation Project: Online Retail Data
+CPMAI-Driven Customer Segmentation Dashboard
 This repository contains a Streamlit application designed to perform Customer Segmentation using the K-Means Clustering algorithm, following the six-phase CPMAI (Cross-Industry Process for Machine Learning Applications) methodology.
+This project demonstrates a complete customer segmentation workflow following the six phases of the CPMAI (Cognitive Project Management for AI) framework. It uses K-Means clustering on RFM (Recency, Frequency, Monetary) features derived from an Online Retail dataset to identify distinct, actionable customer segments.
+The dashboard, built with Streamlit, provides a phase-by-phase review, including data preparation, model evaluation, algorithm comparison, and a final Deployment & Monitoring plan.
 
 🚀 Project Overview
 The application processes a publicly available Online Retail Transactional Dataset to derive RFM (Recency, Frequency, Monetary) features. It then applies and evaluates different machine learning models to identify actionable customer segments.
