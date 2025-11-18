@@ -82,6 +82,14 @@ Page No.	CPMAI Phase	Focus
 5-7	Phase 4/5 (Modeling & Eval)	K-Means selection, Cluster Profiling, and comparison with Hierarchical/DBSCAN.
 8-9	Phase 6 (Monitoring)	Monitoring for data drift and technical explanation of cluster decay.
 
+
+Page No.,CPMAI Phase,Focus
+1-2,Phase 1 (Understanding),"Project Goals, Success Criteria, and AI Pattern."
+3-4,Phase 2/3 (Data),"Data Cleaning, RFM Feature Engineering, and Transformation."
+5,Phase 4 (Modeling),K-Means Algorithm Selection and Model Definition (Baseline & Enriched).
+6,Phase 5 (Evaluation),"Cluster Profiling, RFM Visualization, and Business Actionability."
+7,Phase 4/5 (Experiment),Algorithm Comparison (Hierarchical vs. DBSCAN) and Optimal K Selection.
+8-9,Phase 6 (Monitoring),Monitoring for data drift and technical explanation of cluster decay.
 ---
 
 ## 📁 Project File Structure
