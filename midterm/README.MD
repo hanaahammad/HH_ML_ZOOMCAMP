@@ -16,11 +16,11 @@ The project is structured to address the needs of business users across all 6 CP
 2.  **Data Understanding & Preparation:** RFM calculation, cleaning, scaling, and feature enrichment.
 3.  **Modeling:** Comparison of K-Means, DBSCAN, and Hierarchical (demonstrated via K-Means).
 4.  **Evaluation:** Interactive comparison of Baseline vs. Enriched models, highlighting the business user's role in judging **Actionability**.
-5.  **Deployment & Monitoring:** Dashboard view simulating continuous tracking to detect **Concept Drift**.
+5.  **Operationalization**: Or Deployment & Monitoring via a  Dashboard view simulating continuous tracking to detect **Concept Drift**.
 
 ## 💻 Tech Stack
 
-* **Language:** Python
+* **Language:** Python 3.11+ (Alternative) - Required to run the application locally.
 * **Libraries:** `pandas`, `scikit-learn`, `plotly`
 * **Web Framework:** Streamlit
 * **Environment:** Docker (for reproducibility)
