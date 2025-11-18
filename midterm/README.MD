@@ -68,11 +68,11 @@ Ensure you have Docker installed and running.
     ```
 3.  **Access the app:** The terminal will provide the local URL, typically `http://localhost:8501`.
 
-💡 Application Usage Guide
+## 💡 Application Usage Guide
 When you navigate to the application (http://localhost:8501), the model building process is not yet complete.
 1. Start Data Loading and Model Development
 The home screen (app.py) will display an introduction and a button:
-•	Click the "🚀 Start Model Building & Load Project Data" button.
+•	Click the "🚀 **Start Model Building & Load Project Data"** button.
 This action triggers the core CPMAI Phase 3 & 4 workflow: data cleaning, RFM feature engineering, and the training of the Baseline (K=4) and Enriched (K=6) clustering models. A status bar will display progress.
 2. Navigate the CPMAI Phases
 Once the models are loaded, the sidebar (☰ top-left) will become active. You can then navigate through the six phases of the project:
