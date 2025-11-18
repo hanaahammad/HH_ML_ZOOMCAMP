@@ -44,7 +44,7 @@ Ensure you have Docker installed and running.
     ```
 3.  **Run the container:**
     - Run the image, mapping port 8501 and mounting the data volume (OnlineRetail.csv) from your current directory ($(pwd)) to the container's working directory (/app):
-        # Ensure you are inside the 'customer-segmentation-app' directory with OnlineRetail.csv present.
+    - Ensure you are inside the 'customer-segmentation-app' directory with OnlineRetail.csv present.
 
     ```bash
     docker run -p 8501:8501 rfm-segmentation-app
