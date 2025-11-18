@@ -82,7 +82,26 @@ This action triggers the core CPMAI Phase 3 & 4 workflow: data cleaning, RFM fea
 | :---: | :---: | :--- |
 | **1-2** | Phase 1 (Understanding) | Project Goals, Success Criteria, and AI Pattern. |
 | **3-4** | Phase 2/3 (Data) | Data Cleaning, RFM Feature Engineering, and Transformation. |
+| **5** | Phase 4 (Modeling) | K-Means Algorithm Selection and Model Definition (Baseline & Enriched). |
+| **6** | Phase 5 (Evaluation) |Cluster Profiling, RFM Visualization, and Business Actionability. |
+| **7** | Phase 4/5 (Experiment) | Algorithm Comparison (Hierarchical vs. DBSCAN) and Optimal K Selection. |
 
+
+
+
+
+
+8
+
+Phase 6 (Monitoring)
+
+Monitoring for Data Distribution Drift and Retraining Plan.
+
+9
+
+Phase 6 (Monitoring)
+
+Technical Explanation of Cluster Decay and Drift Simulation.
 
 
 
