@@ -1,3 +1,8 @@
+<h1 align="center">🧠 Hair Type Classification (Curly vs Straight)</h1>
+
+<p align="center">
+  <i>Convolutional Neural Network in PyTorch · From-scratch model · Data Augmentation</i>
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Project-Hair%20Type%20Classification-blueviolet?style=for-the-badge" alt="Project Badge">
   <img src="https://img.shields.io/badge/Framework-PyTorch-red?style=for-the-badge&logo=pytorch" alt="PyTorch Badge">
@@ -17,13 +22,9 @@ The workflow follows the structure of a machine learning homework project:
 
 The implementation uses **PyTorch**, **torchvision**, and GPU acceleration when available.
 
-<h1 align="center">🧠 Hair Type Classification (Curly vs Straight)</h1>
 
-<p align="center">
-  <i>Convolutional Neural Network in PyTorch · From-scratch model · Data Augmentation</i>
-</p>
 
----
+
 
 
 ---
